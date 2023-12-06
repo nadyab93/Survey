@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Playstation survey</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <h1 id="title">Playstation Survey Form</h1>
+        <p id="description">Thank you for taking the time to help Sony improve</p>
+        <form action="" id="survey-form">
+          <div class="form-div">
+            <label id="name-label">Name</label> 
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+          </div>
+          <div class="form-div">
+            <label id="email-label">Email</label> 
+            <input type="email" id="name" name="email" placeholder="Enter Your Email" required>
+            </div>
+          <div class="form-div">    
+            <label id="number-label">Age(optional)</label> 
+            <input type="number" min="8" max="100" id="age" name="age" placeholder="Age">
+            </div>
+            <div class="form-div">
+                <label id="dropdown-label-console">What is your favorite Playstation console?</label>
+                <select id="dropdown-console" name="dropdown-console">
+                    <option value="">Select favorite console</option>
+                    <option value="">PS</option>
+                    <option value="">PS2</option>
+                    <option value="">PS3</option>
+                    <option value="">PS4</option>
+                    <option value="">PS5</option>
+                </select>
+            </div>
+            <div class="form-div">
+                <label id="label-div">Would you recommend Sony to a friend?</label>
+            </div>
+            <div class="form-radio">
+                <label id="definitely"><input type="radio" value="definitely" name="recommend"> Definitely</label>
+            </div>
+            <div class="form-radio">
+                <label id="maybe"><input type="radio" value="maybe" name="recommend"> Maybe</label>
+            </div>
+            <div class="form-radio">
+                <label id="notsure"><input type="radio" value="notsure" name="recommend"> Not sure</label>
+            </div>
+            <div class="form-div">
+                <label id="dropdown-label-feature">What is your favorite Playstation 5 feature?</label>
+                <select id="dropdown-feature" name="dropdown-feature">
+                    <option value="">Select an option</option>
+                    <option value="">Memory</option>
+                    <option value="">Display</option>
+                    <option value="">Graphics</option>
+                    <option value="">Sound</option>
+                    <option value="">Connectivity</option>
+                    <option value="">Playstation Network/Plus</option>
+                </select>
+            </div>
+
+            </form>
+    </head>
+    <body></body>
+</html>
